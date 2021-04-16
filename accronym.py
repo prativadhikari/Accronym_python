@@ -11,6 +11,7 @@ def create_an_acronym(phrase):
     accronym=[]
     for i in phrase:
         accronym=accronym+i[0].upper()
+	#returns accronym	
     return accronym
 
 
